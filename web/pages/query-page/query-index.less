@@ -1,0 +1,59 @@
+html,body,main
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    margin: 0;
+}
+
+.contain
+{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section.menu-zone
+{
+    height: 180px;
+
+    .query-search-bar
+    {
+        padding: 15px 0;
+
+        .search-bar
+        {
+            height: 30px;
+            width: 400px;
+            font-size: 15px;
+        }
+
+        .search-button
+        {
+            display: inline-block;
+            background: #0090ff2e;
+            padding: 8px 15px;
+            vertical-align: top;
+            margin-left: 10px;
+            border-radius: 2px;
+            color: #162027;
+            cursor: pointer;
+
+            &:hover
+            {
+                background: #0090ff69;
+            }
+        }
+    }
+}
+
+section.items-zone
+{
+    flex: 1;
+}
