@@ -1,0 +1,16 @@
+{
+  "name": "search-query-manager2",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "vite build -w false",
+    "watch": "vite build -w true"
+  },
+  "dependencies": {
+    "less": "^4.2.0",
+    "solid-js": "^1.7.11",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-checker": "^0.6.2",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
