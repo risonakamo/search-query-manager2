@@ -17,15 +17,19 @@ function QueryIndex():JSXElement
 
       <section class="items-zone">
         <div class="query-items-table">
-          <div class="item-id">1</div>
-          <div class="item-slug">1541049: 2023/09/09</div>
-          <div class="view-count">0</div>
-          <div class="item-count">0</div>
+          <div class="row">
+            <div class="item-id">1</div>
+            <div class="item-slug">1541049: 2023/09/09</div>
+            <div class="view-count">0</div>
+            <div class="item-count">0</div>
+          </div>
 
-          <div class="item-id">2</div>
-          <div class="item-slug">1541049: 2023/09/08</div>
-          <div class="view-count">0</div>
-          <div class="item-count">0</div>
+          <div class="row">
+            <div class="item-id">2</div>
+            <div class="item-slug">1541049: 2023/09/08</div>
+            <div class="view-count">0</div>
+            <div class="item-count">0</div>
+          </div>
         </div>
       </section>
     </div>
