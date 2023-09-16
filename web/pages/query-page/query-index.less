@@ -58,16 +58,39 @@ section.items-zone
 {
     flex: 1;
 
-    .query-items-table
+    .row
     {
-        display: grid;
-        grid-template-columns: minmax(auto,45px) auto 40px 40px;
-        grid-auto-rows: 40px;
+        display: flex;
+        height: 40px;
         align-items: center;
+        margin-bottom: 7px;
+        border-radius: 3px;
+        padding: 0 15px;
+        cursor: pointer;
 
-        .row
+        .item-id
         {
-            display: contents;
+            width: 55px;
+        }
+
+        .item-slug
+        {
+            flex: 1;
+        }
+
+        .item-count
+        {
+            width: 60px;
+        }
+
+        .view-count
+        {
+            width: 60px;
+        }
+
+        &:hover
+        {
+            background: #eee5e596;
         }
     }
 }
