@@ -13,9 +13,9 @@ export function FlatButton(props:ComponentNameProps):JSXElement
   return <div class="flat-button">
     <p class="text">Shuffle</p>
     {/* <p class="icon">X</p> */}
-    <p class="toggles">
+    <div class="toggles">
       <p>item1</p>
       <p>item2</p>
-    </p>
+    </div>
   </div>;
 }
